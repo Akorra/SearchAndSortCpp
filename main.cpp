@@ -9,5 +9,7 @@ int main()
     std::cout << Search::ImprovedLinear<int>(arr, 10, 5) << std::endl;
     std::cout << Search::RecursiveBinary<int>(arr, 0, 9, 2) << std::endl;
     std::cout << Search::IterativeBinary<int>(arr, 0, 9, 2) << std::endl;
+    std::cout << Search::Jump<int>(arr, 10, 7) << std::endl;
+    std::cout << Search::Interpolation<int>(arr, 0, 9, 7) << std::endl;
     return 0;
 }
